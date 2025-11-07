@@ -1,7 +1,7 @@
 <?php
 include 'config/db.php';
 
-// Fetch all student records
+
 try {
     $query = "SELECT * FROM students ORDER BY id DESC";
     $result = $pdo->query($query);
